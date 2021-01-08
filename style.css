@@ -1,0 +1,372 @@
+/* Feuille CSS
+
+
+---------------
+
+De TKW (par Sabran#7831) */
+
+*::selection
+{
+	background-color: #AAAA;
+}
+
+.Logo
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.Menu
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial Black, Impact, sans-serif;
+	list-style-type: none;
+	font-style: bold;
+
+}
+
+nav li
+{
+	float: left;
+	width: 14%;
+	text-align: center;
+}
+
+.Menu::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav
+{
+	width: 100%;
+	margin: 0 auto 40px auto;
+	position : sticky;
+	top: 0px;
+	border-bottom: 2px solid black;
+	background-color: white;
+}
+
+nav a
+{
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 5px 0px; 
+	border-radius: 15px;
+}
+
+nav a:hover
+{
+	background-color: #A02E15;
+	color: white;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 65px;
+	color: black;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+h1 a:hover
+{
+	color: #A02E15;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 45px;
+}
+
+.Page1 aside
+{
+	width: 200px;
+	margin-right:100px;
+	margin-top: 10px;
+	margin-left: 15px;
+	float:right;
+
+}
+
+@media all and (max-width: 1024px)
+{
+	.Page1 aside
+	{
+		display: none;
+	}
+}
+
+.Page1 .presentation
+{
+	background-image: url(Image/Image_Accueil.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 850px;
+	padding-top: 2px;
+}
+
+@media all and (min-width: 1024px)
+{
+	.Page1 .presentation
+	{
+		height: 300px
+		padding-top: none;
+	}
+}
+
+.Page2 .presentation
+{
+	background-image: url(Image/Image_Regle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	padding-top: 50px;
+}
+
+.presentation p
+{
+	color: white;
+	text-align: center;
+	font-size: x-large;
+	margin-right: 400px;
+	margin-left: 400px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+ .Page4 .presentation p
+ {
+ 	color: black;
+	text-align: center;
+	font-size: x-large;
+	margin-right: 400px;
+	margin-left: 400px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+ }
+
+@media all and (max-width: 1024px)
+{
+	.presentation p,  .Page4 .presentation p
+	{
+
+		margin-right: 5px;
+		margin-left: 5px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+}
+
+.presentation h3
+{
+	color: white;
+	text-align: center;
+	font-size: 75px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+
+
+@media all and (max-width: 1024px)
+{
+	.presentation h3
+	{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+
+.discord a
+{
+	display: block;
+	margin: 0 auto;
+  	width: 200px;
+	line-height: 25px;
+	text-align:center;
+	background-color: #A02E15;
+	color: white;
+	text-decoration: none;
+	font-family: Arial Black, Impact, sans-serif;
+	border-radius: 15px;
+	font-size: x-large;
+}
+
+.discord a:hover
+{
+	background-color: black;
+}
+
+.trailer
+{
+	text-align: center;
+	font-size: x-large;
+}
+
+.youtube
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.discord2
+{
+	display: block;
+	margin: 0 auto;
+  	width: 200px;
+	line-height: 25px;
+}
+
+@media all and (min-width: 1024px)
+{
+	.discord2
+	{
+		display: none;
+	}
+}
+
+.Sommaire
+{
+	border: black 2px solid;
+	width: 15%;
+	margin-top: 25px;
+	margin-left: 150px;
+	margin-bottom: 35px;
+}
+
+.SsSommaire:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.Regles h2, .Regles h3, .Regles h4, .Regles h5
+{
+	text-align: center;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+@media all and (max-width: 1024px)
+{
+
+	.Regles h2, .Regles h3, .Regles h4, .Regles h5
+	{
+		margin-right: 5px;
+		margin-left: 5px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+}
+
+
+.Regles h2, .Regles h3
+{
+	font-size: 2.5em;
+}
+
+.Regles h4
+{
+	font-size: xx-large;
+}
+
+.Regles h5
+{
+	font-size: x-large;
+}
+
+.Regles img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.Regles p, .pouvoirs
+{
+	text-align: center;
+	font-size: x-large;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+@media all and (max-width: 1024px)
+{
+
+	.Regles p, .pouvoirs
+	{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+}
+
+.Discord3
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.logo_tkw_grand
+{
+	text-align: center;
+}
+
+.classement h3
+{
+	font-size: 2em;
+	text-align: center;
+}
+
+.classement p
+{
+	text-align: left;
+	font-size: large;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+footer
+{
+	border-top: 1px solid black;
+	font-family: Arial Black, Impact, sans-serif;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 75px;
+	text-align: center;
+}
+
+@media all and (max-width: 1024px)
+{
+	footer
+	{
+		font-size: x-small;
+	}
+
+strong
+{
+	font-style: bold;
+}
+
+em
+{
+	font-style: italic;
+}
+
